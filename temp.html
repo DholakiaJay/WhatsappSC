@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* .msgbox {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  font-size: 12px;
+  overflow: visible;
+}
+.p-msgbox {
+  top: 0%;
+  position: absolute;
+  left: 0%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  overflow: visible;
+  padding: 3px;
+  border-radius: 6px;
+}
+.y-msgbox {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  overflow: visible;
+  border-radius: 6px;
+}
+.p-msgbox span:nth-child(2),
+.y-msgbox span:nth-child(2) {
+  font-size: 9px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0%;
+  right: 1%;
+  
+}
+
+.p-msgbox span:nth-child(1),
+.y-msgbox span:nth-child(1) {
+  font-size: 12px;
+} */
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .chatbox {
+        height: 300px;
+        width: 200px;
+        border: 1px solid;
+        overflow: auto;
+      }
+      .msg-l {
+        text-align: left;
+        padding: 3px;
+        display: flex;
+        align-items: baseline;
+        gap: 36px;
+        justify-content: start;
+      }
+      .msg-r {
+        display: flex;
+        justify-content: end;
+        align-items: baseline;
+        gap: 36px;
+        text-align: end;
+        padding: 3px;
+      }
+      .msg-l span:nth-child(2),
+      .msg-r span:nth-child(2) {
+        font-size: 9px;
+      }
+      .msgL,
+      .msgR {
+        width: fit-content;
+        border: 1px solid;
+        padding: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 36px;
+        border-radius: 6px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="chatbox">
+      <div class="msg-l">
+        <div class="msgL"><span>Lefta</span><span>5:40</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+      <div class="msg-l">
+        <div class="msgL"><span>Left</span><span>5:40</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+      <div class="msg-l">
+        <div class="msgL"><span>Left</span><span>5:40</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+      <div class="msg-r">
+        <div class="msgR"><span>Right</span><span>5:45</span></div>
+      </div>
+    </div>
+  </body>
+<!--  
+   <div class="msgbox">
+    <div class="p-msgbox">
+      <span>Hii Sanjay lo</span><span>10:53</span>
+    </div>
+    <div class="y-msgbox"><span>Hii Jay</span><span>10:54</span></div>
+    
+  </div>
+  <div class="msgbox">
+    <div class="p-msgbox">
+      <span>lo</span><span>10:53</span>
+    </div>
+    <div class="y-msgbox"><span>Hii Jay</span><span>10:54</span></div>
+    
+  </div>
+  -->
+</html>

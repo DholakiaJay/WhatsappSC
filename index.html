@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=done_all" />
+    <title>WhatsApp SC</title>
+  </head>
+  <body>
+    <div class="whatsAppSc">
+      <form>
+        <span>
+          <input type="text" name="personName" placeholder="Person Name" value="Jaydeep Sir"/>
+        </span>
+        <span>
+          <input
+            type="text"
+            name="image"
+            placeholder="Profile Image Link"
+            value="https://i.pinimg.com/564x/e5/66/cb/e566cb852964e889798a0ae0ba6b4aca.jpg"
+          />
+        </span>
+        <span>
+          <input type="text" name="time" placeholder="time ex [ 5:45 ]" value="12:00" />
+        </span>
+        <span>
+          <input type="text" name="date" placeholder="Date ex [ 3 June, 2024 ]" value="8 November, 2024"
+        /></span>
+        <span>
+          <input type="text" name="day" placeholder="Day ex [ Friday ]" value="Friday"
+        /></span>
+        <span>
+          <input type="text" name="batterypt" placeholder="Battery % ex [ 72 ]" value="72"
+        /></span>
+        <span style=" background-color:white">
+          <input name="personMsg" placeholder="Person Message" value="Hello . . .Jay Dholakia"  >
+          <input
+            type="text"
+            name="personMsgTime"
+            placeholder="time"
+            value="11:07"
+
+        /></span>
+        <span style=" border:none; border-bottom: 0px solid black;  background-color:white;">
+          <input name="personMsg1" placeholder="Message" value="your lecture will resume today...">
+          <input
+            type="text"
+            name="personMsgTime1"
+            placeholder="time"
+            value="11:16"
+        /></span>
+        
+        <span style=" border:none; border-bottom: 0px solid black; background-color:white;">
+          <input name="personMsg2" placeholder=" Message" value="lecture will start at 2:00">
+          <input
+            type="text"
+            name="personMsgTime2"
+            placeholder="time"
+            value="11:25"
+        /></span>
+        
+        <span style="background-color:#dcf8c6;">
+          <input name="yourMsg" placeholder="Your Message" value="Hii..Jaydeep Sir">
+          <input
+            type="text"
+            name="yourMsgTime"
+            placeholder="time"
+            value="11:10"
+        /></span>
+        <span style=" border:none; border-bottom: 0px solid black; background-color:#dcf8c6;">
+          <input name="yourMsg1" placeholder="Message" value="Today ! Ok done.... time ?"><input
+            type="text"
+            name="yourMsgTime1"
+            placeholder="time"
+            value="11:19"
+        /></span>
+        <span style=" border:none; border-bottom: 0px solid black; background-color:#dcf8c6;"> 
+          <input name="yourMsg2" placeholder="Message" value="ok i will be there at 2:00 if possible.."><input
+            type="text"
+            name="yourMsgTime2"
+            placeholder="time"
+            value="11:28"
+        /></span>
+        
+
+        <button id="createSC">
+          <i class="fa-solid fa-rotate" id="loadbtn"></i> &nbsp; Generate
+        </button>
+      </form>
+    </div>
+
+    <div class="scbox"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

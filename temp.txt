@@ -1,0 +1,41 @@
+ <div class="phone">
+        <div class="screen">
+          <div class="header">
+            <span id="h-left">
+              <span>10:13</span>
+              <span><i class="fa-solid fa-comment"></i></span>
+            </span>
+            <span id="h-right">
+              <span><i class="fa-solid fa-wifi"></i></span>
+              <span><i class="fa-solid fa-signal"></i></span>
+              <span>70%</span>
+              <span><i class="fa-solid fa-battery-half"></i></span>
+            </span>
+          </div>
+          <!-- Top -->
+          <div class="topbar">
+            <span id="backbtn"><i class="fa-solid fa-arrow-left"></i></span>
+            <div class="profile">
+              <img
+                src="https://ghantee.com/wp-content/uploads/2024/01/jay-jaykara-hanuman-ji-hd-image.jpg"
+                class="img-fluid rounded-top"
+                alt=""
+              />
+            </div>
+            <div class="name">
+              <span>Jay</span>
+              <span>Online</span>
+            </div>
+            <div class="menu">
+              <span><i class="fa-solid fa-video"></i></span>
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+            </div>
+          </div>
+
+          <!-- Date -->
+          <div class="date"><span>October 29, 2024</span></div>
+          <!-- Day -->
+          <div class="day"><span>Wednesday</span></div>
+        </div>
+      </div>
